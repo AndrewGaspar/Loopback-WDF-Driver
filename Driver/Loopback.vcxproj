@@ -201,9 +201,22 @@
     <FilesToPackage Include="$(TargetPath)" />
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="driver.cpp" />
+    <ClCompile Include="Device.cpp" />
+    <ClCompile Include="Driver.cpp" />
+    <ClCompile Include="File.cpp" />
+    <ClCompile Include="Io.cpp" />
+    <ClCompile Include="Loopback.cpp" />
+    <ClCompile Include="Pnp.cpp" />
+    <ClCompile Include="PowerPolicy.cpp" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="Common.h" />
+    <ClInclude Include="Device.h" />
+    <ClInclude Include="Driver.h" />
+    <ClInclude Include="File.h" />
+    <ClInclude Include="Io.h" />
+    <ClInclude Include="Pnp.h" />
+    <ClInclude Include="PowerPolicy.h" />
     <ClInclude Include="trace.h" />
   </ItemGroup>
   <ItemGroup>
