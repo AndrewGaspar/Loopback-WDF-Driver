@@ -1,0 +1,21 @@
+TARGETNAME=Loopback
+TARGETTYPE=DRIVER
+
+KMDF_VERSION_MAJOR=1
+
+INCLUDES=$(INCLUDES);..\..\exe
+
+GENERIC_INFS=$(TARGETNAME).inx
+
+# Needed by build.exe to invoke build_inf
+NTTARGETFILE0=
+
+INCLUDES=$(INCLUDES);..\inc
+
+SOURCES=driver.c \
+
+TARGET_DESTINATION=WdfTrainingStep1
+
+DDK_TARGET_PLATFORM=Universal
+
+

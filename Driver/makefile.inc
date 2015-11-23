@@ -1,0 +1,1 @@
+# Needed by build.exe to invoke build_inf
